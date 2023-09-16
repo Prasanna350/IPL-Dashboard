@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.competing-team-first-cards {
+  width: 35%;
+}
+
+.competing-team-second-cards {
+  width: 30%;
+  text-align: center;
+}
+
+.competing-team-third-cards {
+  width: 35%;
+  text-align: right;
+}
+
+.latest-competing-team {
+  font-size: 15px;
+}
+
+.latest-date {
+  font-size: 13px;
+}
+
+.latest-small-para {
+  font-size: 10px;
+  margin: 8px 0px;
+
+  font-weight: 200;
+}
+
+.latest-small-heads {
+  font-size: 14px;
+  margin: 8px 0px;
+}
+
+.competing-team-logo-card {
+  text-align: center;
+}
+
+.competing-team-logo {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .latest-match-card {
+    flex-direction: column;
+  }
+  .competing-team-all-cards {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,29 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  border: 1px solid #ffffff;
+  background-color: #ffffff30;
+  width: 45%;
+  border-radius: 10px;
+  margin: 10px;
+
+  padding: 15px;
+}
+
+.team-card-div {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.team-card-image {
+  height: 60px;
+}
+
+.team-card-name {
+  font-family: 'Bree serif';
+  font-weight: 500;
+  margin-left: 10px;
+  text-align: center;
+}
